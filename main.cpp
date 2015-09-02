@@ -97,20 +97,6 @@ bool valid(std::vector< std::vector < int> > & map, int posx, int posy, int dir)
             return true;
         }
         return false;
-        
-//     return (
-//            (!(posx < 0 ))
-//         && (!(posy < 0 ))
-//         && (!(posx2 < 0 ))
-//         && (!(posy2 < 0 ))
-//         && (!(posy >= map.size()))
-//         && (!(posy2 >= map.size()))
-//         && ( (map[posy][posx] == 0))
-//         && (!(posx >= map[0].size()))
-//         && (!(posx2 >= map[0].size()))
-//         && ( (map[posy2][posx2] == 0))
-//         
-//     );
 }
 
 void generateMaze(std::vector< std::vector < int> > & map, int iniX, int iniY){
